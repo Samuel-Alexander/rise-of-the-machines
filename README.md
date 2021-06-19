@@ -3,7 +3,7 @@
 
 
 ## Project Summary
-This project is motivated by the desire to better understand and implement some of the more common machine learning trading algorithms. 
+This project is motivated by the desire to better understand and implement some of the more common machine learning trading algorithms. We will be be experimenting with various supervised and unsupervised learning techniques, and benchmarking the performance of the models against passive ETFs and active mutual funds.
 
 ## Contributors:
 * Val
@@ -19,10 +19,11 @@ This project is motivated by the desire to better understand and implement some 
 
 ## Steps
 1. **Data Generation:** Gather and prepare historical return data for training and testing
-2. **Train and compare multiple Machine Learning Algorithms:** Compare prediction performance of multiple ML-Algorithms on dimensions of accuracy, performanc, and efficiency (Sharpe Ratio). Alogorithms in scope:
+2. **Create trading signals**
+3. **Train and compare multiple Machine Learning Algorithms:** Compare prediction performance of multiple ML-Algorithms on dimensions of accuracy, performanc, and efficiency (Sharpe Ratio). Alogorithms in scope:
   * Logistic Regression
+  * AdaBoostClassifier
+  * DecisionTreeClassifier
   * RandomForestClassifier
   * GradientBoostingClassifier
-  * AdaBoostClassifier
   * XGBClassifier
-3. **Deployment:** Implement a fully functional trading algorithm that buys and sells the stocks selected by the Model
