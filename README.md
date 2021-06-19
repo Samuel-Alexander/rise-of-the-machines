@@ -14,6 +14,8 @@ This project is motivated by the desire to better understand and implement some 
 * Alpaca API
 * Python
 * sklearn
+* NumPy
+* Pandas
 
 ## Steps
 1. **Data Generation:** Gather and prepare historical return data for training and testing
