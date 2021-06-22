@@ -20,7 +20,7 @@ This project is motivated by the desire to better understand and implement some 
 ## Steps
 1. **Data Generation:** Gather and prepare historical return data for training and testing
 2. **Create trading signals**
-3. **Train and compare multiple Machine Learning Algorithms:** Compare prediction performance of multiple ML-Algorithms on dimensions of accuracy, performanc, and efficiency (Sharpe Ratio). Alogorithms in scope:
+3. **Train and compare multiple Machine Learning Algorithms:** Compare prediction performance of multiple ML-Algorithms on dimensions of accuracy, performance, and efficiency (Sharpe Ratio). Alogorithms in scope:
   * Logistic Regression
   * AdaBoostClassifier
   * DecisionTreeClassifier
