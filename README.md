@@ -19,11 +19,18 @@ This project is motivated by the desire to better understand and implement some 
 
 ## Steps
 1. **Data Generation:** Gather and prepare historical return data for training and testing
+
 2. **Create trading signals**
+  * [Simple Moving Average (SMA)](https://www.investopedia.com/terms/m/movingaverage.asp)
+  * [Exponential Moving Average (EMA)](https://www.investopedia.com/terms/e/ema.asp)
+  * [Relative Strength Index (RSI)](https://www.investopedia.com/terms/r/rsi.asp)
+  * [Moving Avereage Convergence Divergence (MACD)](https://www.investopedia.com/terms/m/macd.asp)
+  * [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)
+  
 3. **Train and compare multiple Machine Learning Algorithms:** Compare prediction performance of multiple ML-Algorithms on dimensions of accuracy, performance, and efficiency (Sharpe Ratio). Alogorithms in scope:
-  * Logistic Regression
-  * AdaBoostClassifier
-  * DecisionTreeClassifier
-  * RandomForestClassifier
-  * GradientBoostingClassifier
-  * XGBClassifier
+  * [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+  * [AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html)
+  * [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+  * [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+  * [GradientBoostingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+  * [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
