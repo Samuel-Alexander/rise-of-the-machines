@@ -39,7 +39,7 @@ Alogorithms in scope:
   * [Simple Moving Average (SMA)](https://www.investopedia.com/terms/m/movingaverage.asp)
   * [Exponential Moving Average (EMA)](https://www.investopedia.com/terms/e/ema.asp)
   * [Relative Strength Index (RSI)](https://www.investopedia.com/terms/r/rsi.asp)
-  * [Moving Avereage Convergence Divergence (MACD)](https://www.investopedia.com/terms/m/macd.asp)
+  * [Moving Average Convergence Divergence (MACD)](https://www.investopedia.com/terms/m/macd.asp)
   * [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)
   
 3. **Split Data into training and test data sets**
