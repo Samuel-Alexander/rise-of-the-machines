@@ -3,7 +3,7 @@
 
 
 ## Project Summary
-This project is motivated by the desire to better understand and implement some of the more common machine learning trading algorithms. We will be be experimenting with various supervised and unsupervised learning techniques, and benchmarking the performance of the models against passive ETFs and active mutual funds.
+This project is motivated by the desire to better understand and implement some of the more common machine learning trading algorithms. We will be be experimenting with various supervised and unsupervised learning techniques, and comparing the performance of each.
 
 Alogorithms in scope:
   * [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
