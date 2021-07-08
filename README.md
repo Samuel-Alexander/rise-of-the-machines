@@ -3,7 +3,7 @@
 
 
 ## Project Summary
-This project is motivated by the desire to better understand and implement some of the more common machine learning trading algorithms. We will be be experimenting with various supervised and unsupervised learning techniques, and benchmarking the performance of the models against passive ETFs and active mutual funds.
+This project is motivated by the desire to better understand and implement some of the more common machine learning trading algorithms. We will be be experimenting with various supervised and unsupervised learning techniques, and benchmarking the performance of the models against passive (long-only) returns.
 
 Alogorithms in scope:
   * [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
@@ -11,7 +11,7 @@ Alogorithms in scope:
   * [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
   * [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
   * [GradientBoostingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
-  * [XGBClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+
 
 ---
 
@@ -37,7 +37,6 @@ Alogorithms in scope:
 
 2. **Generate trading signals**
   * [Simple Moving Average (SMA)](https://www.investopedia.com/terms/m/movingaverage.asp)
-  * [Exponential Moving Average (EMA)](https://www.investopedia.com/terms/e/ema.asp)
   * [Relative Strength Index (RSI)](https://www.investopedia.com/terms/r/rsi.asp)
   * [Moving Average Convergence Divergence (MACD)](https://www.investopedia.com/terms/m/macd.asp)
   * [Bollinger Bands](https://www.investopedia.com/terms/b/bollingerbands.asp)
